@@ -13,9 +13,7 @@ int main(void)
 
 	while (i < 8)
 	{
-		_putchar(volume[i]);						 
-		i++;							  
-	}
+		_putchar(volume[i]);						   i++;							  }
 	_putchar('\n');
         return (0);
 }
