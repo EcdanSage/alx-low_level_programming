@@ -1,4 +1,4 @@
-#include "main.h"
+#include <stdio.h>
 
 /**
  *print_number - prints an integer.
@@ -30,6 +30,6 @@ void print_number(int n)
 
 	for (; count >= 1; count /= 10)
 	{
-		putchar(((m / count) % 10) + 48);
+		_putchar(((m / count) % 10) + 48);
 	}
 }
