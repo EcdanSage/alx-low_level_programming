@@ -1,2 +1,3 @@
 #!/bin/bash
-gcc $CFILE0=-main.c -E -o
+gcc $CFILE -E -o main.c
+export CFILE=0-main.c ; ./0-preprocessor
